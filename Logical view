@@ -1,0 +1,19 @@
+                         ┌─────────────────────┐
+                         │     Internet        │
+                         └─────────┬───────────┘
+                                   │
+                    ┌──────────────┴──────────────┐
+                    │         Firewall              │
+                    └──────────────┬──────────────┘
+                                   │
+        ┌───────────────┬───────────┼───────────┬───────────────┐
+        │               │           │           │               │
+┌─────────────┐  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐
+│ Web Server  │  │ Application │  │ Database    │  │ APIs        │
+│ (HTTP/HTTPS)│  │ Server      │  │ Server      │  │ Endpoints   │
+└─────┬───────┘  └─────┬───────┘  └─────┬───────┘  └─────┬───────┘
+      │                │                │                │
+ Vulnerable        Weak Auth       Open Ports       Unsecured APIs
+ Software          Credentials     SQL Injection    Token Leakage
+      │                │                │                │
+      └────────────── ATTACK SURFACE ──────────────────┘
