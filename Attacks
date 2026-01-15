@@ -1,0 +1,47 @@
+CIA Triad
+
+The CIA Triad represents the three core principles of information security:
+
+1. Confidentiality
+
+Ensures that sensitive information is accessible only to authorized entities.
+Controls: Encryption, access control, authentication, data masking.
+
+2. Integrity
+
+Ensures data remains accurate, complete, and unaltered except by authorized actions.
+Controls: Hashing, digital signatures, checksums, version control.
+
+3. Availability
+
+Ensures systems and data are accessible when required.
+Controls: Redundancy, backups, failover mechanisms, DoS protection.
+Attack Surfaces
+
+The attack surface is the total set of entry points where an attacker can attempt to exploit vulnerabilities.
+
+1. Digital Attack Surface
+
+Web applications
+
+Network ports & services
+
+APIs & cloud interfaces
+
+Software vulnerabilities
+
+2. Physical Attack Surface
+
+Physical access to devices
+
+USB ports
+
+Network hardware
+
+3. Human / Social Attack Surface
+
+Employees and users
+
+Phishing emails
+
+Weak security awareness
