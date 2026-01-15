@@ -1,0 +1,35 @@
+ Real-World Cyber Attack Examples
+1. Equifax Data Breach (2017)
+
+Attack Surface: Web application
+
+Vulnerability: Unpatched Apache Struts vulnerability
+
+Impact:
+
+Data of ~147 million people leaked
+
+2. WannaCry Ransomware Attack (2017)
+
+Attack Surface: Network services (SMB protocol)
+
+Vulnerability: Unpatched Windows systems
+
+Impact:
+
+Affected hospitals, banks, government systems
+
+UK NHS services disrupted
+
+
+3. Target Data Breach (2013)
+
+Attack Surface: Third-party vendor access
+
+Vulnerability: Weak credentials of HVAC vendor
+
+Impact:
+
+40 million credit/debit cards stolen
+
+
